@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Elex-Fonts";
+  src: url("./Elex-Fonts.eot");
+  src: url("./Elex-Fonts.eot?#iefix") format("embedded-opentype"),
+       url("./Elex-Fonts.woff") format("woff"),
+       url("./Elex-Fonts.ttf") format("truetype"),
+       url("./Elex-Fonts.svg#elex") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Elex-Fonts";
+    src: url("./Elex-Fonts.svg#elex") format("svg");
+  }
+}
+
+[class^="elex-"]:before, [class*=" elex-"]:before,
+[class^="elex-"]:after, [class*=" elex-"]:after {
+  font-family: Elex-Fonts;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+  text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.elex-arrows:before { content: "\f100"; }
+.elex-arrows-1:before { content: "\f101"; }
+.elex-bell:before { content: "\f102"; }
+.elex-clock:before { content: "\f103"; }
+.elex-draw:before { content: "\f104"; }
+.elex-interface:before { content: "\f105"; }
+.elex-interface-1:before { content: "\f106"; }
+.elex-magnifying-glass:before { content: "\f107"; }
+.elex-multimedia:before { content: "\f108"; }
+.elex-people:before { content: "\f109"; }
+.elex-people-1:before { content: "\f10a"; }
+.elex-power:before { content: "\f10b"; }
+.elex-social:before { content: "\f10c"; }
+.elex-squares:before { content: "\f10d"; }
+.elex-video:before { content: "\f10e"; }
