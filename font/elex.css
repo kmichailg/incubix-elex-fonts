@@ -19,25 +19,39 @@
 [class^="elex-"]:before, [class*=" elex-"]:before,
 [class^="elex-"]:after, [class*=" elex-"]:after {
   font-family: Elex-Fonts;
-  font-size: 20px;
-  font-style: normal;
-  margin-left: 20px;
-  text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
 .elex-arrows:before { content: "\f100"; }
 .elex-arrows-1:before { content: "\f101"; }
 .elex-bell:before { content: "\f102"; }
-.elex-clock:before { content: "\f103"; }
-.elex-draw:before { content: "\f104"; }
-.elex-interface:before { content: "\f105"; }
-.elex-interface-1:before { content: "\f106"; }
-.elex-magnifying-glass:before { content: "\f107"; }
-.elex-multimedia:before { content: "\f108"; }
-.elex-people:before { content: "\f109"; }
-.elex-people-1:before { content: "\f10a"; }
-.elex-power:before { content: "\f10b"; }
-.elex-social:before { content: "\f10c"; }
-.elex-squares:before { content: "\f10d"; }
-.elex-video:before { content: "\f10e"; }
+.elex-clip:before { content: "\f103"; }
+.elex-clock:before { content: "\f104"; }
+.elex-close:before { content: "\f105"; }
+.elex-down-arrow:before { content: "\f106"; }
+.elex-draw:before { content: "\f107"; }
+.elex-envelope:before { content: "\f108"; }
+.elex-exclamation:before { content: "\f109"; }
+.elex-interface:before { content: "\f10a"; }
+.elex-interface-1:before { content: "\f10b"; }
+.elex-letter:before { content: "\f10c"; }
+.elex-magnifying-glass:before { content: "\f10d"; }
+.elex-menu-button:before { content: "\f10e"; }
+.elex-money:before { content: "\f10f"; }
+.elex-multimedia:before { content: "\f110"; }
+.elex-people:before { content: "\f111"; }
+.elex-people-1:before { content: "\f112"; }
+.elex-plus:before { content: "\f113"; }
+.elex-power:before { content: "\f114"; }
+.elex-rubbish-bin:before { content: "\f115"; }
+.elex-signs:before { content: "\f116"; }
+.elex-social:before { content: "\f117"; }
+.elex-sort-by-alphabet:before { content: "\f118"; }
+.elex-sort-reverse-alphabetical-order:before { content: "\f119"; }
+.elex-squares:before { content: "\f11a"; }
+.elex-star:before { content: "\f11b"; }
+.elex-symbol:before { content: "\f11c"; }
+.elex-technology:before { content: "\f11d"; }
+.elex-video:before { content: "\f11e"; }
