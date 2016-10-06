@@ -16,8 +16,8 @@
   }
 }
 
-    .fi:before{
-        display: inline-block;
+.fi:before{
+  display: inline-block;
   font-family: "Elex-Fonts";
   font-style: normal;
   font-weight: normal;
@@ -29,25 +29,25 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-    }
+}
 
-    .elex-arrows:before { content: "\f100"; }
+.elex-arrows:before { content: "\f100"; }
 .elex-arrows-1:before { content: "\f101"; }
 .elex-bell:before { content: "\f102"; }
-.elex-clip:before { content: "\f103"; }
-.elex-clock:before { content: "\f104"; }
-.elex-close:before { content: "\f105"; }
+.elex-check:before { content: "\f103"; }
+.elex-clip:before { content: "\f104"; }
+.elex-clock:before { content: "\f105"; }
 .elex-down-arrow:before { content: "\f106"; }
 .elex-draw:before { content: "\f107"; }
 .elex-envelope:before { content: "\f108"; }
 .elex-exclamation:before { content: "\f109"; }
 .elex-interface:before { content: "\f10a"; }
-.elex-interface-1:before { content: "\f10b"; }
-.elex-letter:before { content: "\f10c"; }
-.elex-magnifying-glass:before { content: "\f10d"; }
-.elex-menu-button:before { content: "\f10e"; }
-.elex-money:before { content: "\f10f"; }
-.elex-multimedia:before { content: "\f110"; }
+.elex-letter:before { content: "\f10b"; }
+.elex-magnifying-glass:before { content: "\f10c"; }
+.elex-menu-button:before { content: "\f10d"; }
+.elex-money:before { content: "\f10e"; }
+.elex-multimedia:before { content: "\f10f"; }
+.elex-multiply:before { content: "\f110"; }
 .elex-people:before { content: "\f111"; }
 .elex-people-1:before { content: "\f112"; }
 .elex-plus:before { content: "\f113"; }
@@ -63,34 +63,34 @@
 .elex-technology:before { content: "\f11d"; }
 .elex-video:before { content: "\f11e"; }
 
-    $font-elex-arrows: "\f100";
-    $font-elex-arrows-1: "\f101";
-    $font-elex-bell: "\f102";
-    $font-elex-clip: "\f103";
-    $font-elex-clock: "\f104";
-    $font-elex-close: "\f105";
-    $font-elex-down-arrow: "\f106";
-    $font-elex-draw: "\f107";
-    $font-elex-envelope: "\f108";
-    $font-elex-exclamation: "\f109";
-    $font-elex-interface: "\f10a";
-    $font-elex-interface-1: "\f10b";
-    $font-elex-letter: "\f10c";
-    $font-elex-magnifying-glass: "\f10d";
-    $font-elex-menu-button: "\f10e";
-    $font-elex-money: "\f10f";
-    $font-elex-multimedia: "\f110";
-    $font-elex-people: "\f111";
-    $font-elex-people-1: "\f112";
-    $font-elex-plus: "\f113";
-    $font-elex-power: "\f114";
-    $font-elex-rubbish-bin: "\f115";
-    $font-elex-signs: "\f116";
-    $font-elex-social: "\f117";
-    $font-elex-sort-by-alphabet: "\f118";
-    $font-elex-sort-reverse-alphabetical-order: "\f119";
-    $font-elex-squares: "\f11a";
-    $font-elex-star: "\f11b";
-    $font-elex-symbol: "\f11c";
-    $font-elex-technology: "\f11d";
-    $font-elex-video: "\f11e";
+$font-elex-arrows: "\f100";
+$font-elex-arrows-1: "\f101";
+$font-elex-bell: "\f102";
+$font-elex-check: "\f103";
+$font-elex-clip: "\f104";
+$font-elex-clock: "\f105";
+$font-elex-down-arrow: "\f106";
+$font-elex-draw: "\f107";
+$font-elex-envelope: "\f108";
+$font-elex-exclamation: "\f109";
+$font-elex-interface: "\f10a";
+$font-elex-letter: "\f10b";
+$font-elex-magnifying-glass: "\f10c";
+$font-elex-menu-button: "\f10d";
+$font-elex-money: "\f10e";
+$font-elex-multimedia: "\f10f";
+$font-elex-multiply: "\f110";
+$font-elex-people: "\f111";
+$font-elex-people-1: "\f112";
+$font-elex-plus: "\f113";
+$font-elex-power: "\f114";
+$font-elex-rubbish-bin: "\f115";
+$font-elex-signs: "\f116";
+$font-elex-social: "\f117";
+$font-elex-sort-by-alphabet: "\f118";
+$font-elex-sort-reverse-alphabetical-order: "\f119";
+$font-elex-squares: "\f11a";
+$font-elex-star: "\f11b";
+$font-elex-symbol: "\f11c";
+$font-elex-technology: "\f11d";
+$font-elex-video: "\f11e";
